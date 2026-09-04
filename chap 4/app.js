@@ -1,0 +1,15 @@
+var height="10", weight="50", customerName="john"
+alert (height+" "+weight+" "+customerName)
+console.log ("legal variables")
+console.log ("world"+" "+ "myName"+" "+"$10" +" "+"_ten" +" "+"world3");
+console.log ("illegal variables")
+console.log ("my name"+" "+"*num"+" "+"@num"+ " "+"&num"+" "+"3world")
+document.write ("<h1>Rules for naming JS variables</h1>")
+document.write ("<br>")
+document.write ("Variables name can only contain, numbers, $ and _. For example:$my _1stVariable")
+document.write ("<br>")
+document.write ("Variable must begin with a letter, $ or _. For example: $name, _name or name")
+document.write ("<br>")
+document.write ("Variable names are case sensitive")
+document.write ("<br>")
+document.write ("Variable names should not be JS keywords")
